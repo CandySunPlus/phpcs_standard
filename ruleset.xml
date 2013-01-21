@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset name="Gandalf">
+ <description>The MySource coding standard builds on the Squiz coding standard. Currently used for MySource Mini development.</description>
+
+ <!-- <exclude-pattern>*/Tests/*</exclude-pattern> -->
+
+ <!-- Include the whole Squiz standard except FunctionComment, which we override -->
+ <rule ref="PEAR">
+  <exclude name="PEAR.Commenting.FileComment"/>
+  <exclude name="PEAR.Commenting.ClassComment"/>
+ </rule>
+
+</ruleset>
