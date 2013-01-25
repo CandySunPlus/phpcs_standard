@@ -3,6 +3,8 @@
  <description>The MySource coding standard builds on the Squiz coding standard. Currently used for MySource Mini development.</description>
 
  <exclude-pattern>*.jar</exclude-pattern>
+ <exclude-pattern>js-src/app/components</exclude-pattern>
+ <exclude-pattern>js-src/components</exclude-pattern>
 
  <!-- Include the whole Squiz standard except FunctionComment, which we override -->
  <rule ref="PEAR">
