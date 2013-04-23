@@ -62,7 +62,7 @@ class Gandalf_Sniffs_Commenting_FileCommentSniff extends PEAR_Sniffs_Commenting_
                                         'order_text'     => 'precedes @package',
                                        ),
                        'package'    => array(
-                                        'required'       => true,
+                                        'required'       => false,
                                         'allow_multiple' => false,
                                         'order_text'     => 'follows @category',
                                        ),
