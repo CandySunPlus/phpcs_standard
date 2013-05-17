@@ -5,4 +5,4 @@ phpcs_standard for gandalf
 
 set to default by:
 
-phpcs --config-set default_standard Squiz
+phpcs --config-set default_standard Gandalf
